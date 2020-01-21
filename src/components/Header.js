@@ -26,16 +26,10 @@ const Header = () => {
         <nav className="nav-bar">
           <ul>
             <li>
-              <a href="#" onClick={() => window.scrollTo({
-                  top: 750,
-                  behavior: "smooth"
-              })}>Our Stack</a>
+              <a href="#">Our Stack</a>
             </li>
             <li>
-              <a href="#" onClick={() => window.scrollTo({
-                  top: 1450,
-                  behavior: "smooth"
-              })}>Products </a>
+              <a href="#">Products </a>
             </li>
             <li>
               <a href="#"> Contact Us</a>
