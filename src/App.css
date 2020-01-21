@@ -1,38 +1,125 @@
-.App {
+h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+  font-weight: 700;
+}
+
+p{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 25px;
+  color: #333;
+}
+
+section {
+  padding: 50px 0;
+  min-height: 400px;
+}
+
+.header-container {
+  height: 100vh;
+  background: url('./images/hero-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-section {
+  height: 70px;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.transparent {
+  background-color: none;
+}
+
+.white {
+  background-color: black;
+  color: #fff;
+}
+
+.brand {
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+nav {
+  width: 30%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: solid 2px transparent;
+  padding-bottom: 5px;
+  transition: border-bottom 0.3s;
+}
+
+a:hover,
+a:active {
+  border-bottom: solid 2px #f97f51;
+}
+
+/* Our Stack - section */
+
+h1 {
+  font-size: 40px;
+}
+
+.icons-container {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.icon {
+  padding: 50px;
+  width: 25%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  height:150px;
+  width:150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.section {
+  height: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+
+.red {
+  background-color: #fea47f;
 }
 
-.App-link {
-  color: #61dafb;
+.green {
+  background-color: #55e6c1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yellow {
+  background-color: #eab543;
 }
