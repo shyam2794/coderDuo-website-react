@@ -20,7 +20,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="header-container">
+    <div className="section header-container">
       <header className={`header-section ${bgColor}`}>
         <div className="brand">CoderDuo</div>
         <nav className="nav-bar">
@@ -37,6 +37,14 @@ const Header = () => {
           </ul>
         </nav>
       </header>
+      <div className="hero-text-container"> 
+      <h1 className="hero-text top">
+        Your ideas
+      </h1>
+      <h1 className="hero-text bottom">
+        Our Engineering
+      </h1>
+      </div>
     </div>
   );
 };

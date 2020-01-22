@@ -12,9 +12,9 @@ import github from '../images/010-github.png';
 
 const OurStackSection = () => {
     return (
-        <section id="stack" className="stack-section">
-            <h1> Our Stack </h1>
-            <p> We Specialize in the below technologies</p>
+        <section id="stack" className="section stack-section">
+            <h1 className="section-title"> Our Stack </h1>
+            <p className="section-subheader"> We Specialize in the below technologies</p>
             <div className="icons-container">
             <div className="icon">
                 <img src={html} alt="html" /> 

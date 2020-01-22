@@ -3,15 +3,15 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header";
 import OurStackSection from "./components/OurStackSection";
-import Sections from "./components/Sections";
+import Products from "./components/Products";
 
 function App() {
   return (
-    <>
+    <div className="page">
       <Header /> 
       <OurStackSection />
-      <Sections />
-    </>
+      <Products />
+    </div>
   );
 }
 
